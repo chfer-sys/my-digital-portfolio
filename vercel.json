@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm install && next build",
+  "buildCommand": "pnpm install --no-frozen-lockfile && next build",
   "env": {
     "ARCJET_KEY": "@ARCJET_KEY",
     "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
